@@ -23,8 +23,8 @@
           src="../assets/img/icon-hamburger.svg"
           alt="Hamburger menu"
         />
-        <nav class="desktop_menu">
-          <ul class="desktop_menu__list">
+        <nav aria-labelledby="desktop-menu" class="desktop_menu">
+          <ul id="desktop-menu" class="desktop_menu__list">
             <li>
               <a href="#" class="desktop_menu__list--link">About</a>
             </li>
@@ -38,8 +38,11 @@
           <a href="#" class="desktop_menu__list--button">Contact</a>
         </nav>
       </div>
-      <nav>
-        <div class="hamburger_menu hidden js-menu_hamburguer">
+      <nav aria-labelledby="hamburger-menu">
+        <div
+          id="hamburger-menu"
+          class="hamburger_menu hidden js-menu_hamburguer"
+        >
           <div class="hamburger_menu__triangle"></div>
           <ul>
             <li class="hamburger_menu__list">
@@ -176,15 +179,15 @@
         />
       </svg>
 
-      <nav>
-        <ul class="footer__menu">
+      <nav aria-labelledby="menu-footer">
+        <ul id="menu-footer" class="footer__menu">
           <li><a href="#" class="footer__menu--link">About</a></li>
           <li><a href="#" class="footer__menu--link">Services</a></li>
           <li><a href="#" class="footer__menu--link">Projects</a></li>
         </ul>
       </nav>
-      <nav class="social_media">
-        <ul class="footer__menu">
+      <nav aria-labelledby="social-media" class="social_media">
+        <ul id="social-media" class="footer__menu">
           <li>
             <a href="#"
               ><svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
