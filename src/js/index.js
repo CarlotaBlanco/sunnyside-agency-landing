@@ -1,9 +1,10 @@
+'use strict';
 import '../scss/main.scss';
 
-// uncomment the lines below to enable PWA
-// import {registerSW} from './pwa.js';
-// registerSW();
+const hamburguerButton = document.querySelector('.js-hamburguer');
+const hamburguerMenu = document.querySelector('.js-menu_hamburguer');
 
-/* place your code below */
-
-console.log('HELLO 🚀')
+function seeHamburgerMenu() {
+  hamburguerMenu.classList.toggle('hidden');
+}
+hamburguerButton.addEventListener('click', seeHamburgerMenu);
